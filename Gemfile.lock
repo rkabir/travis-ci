@@ -42,6 +42,15 @@ GIT
       rails (~> 3.2.1)
 
 GIT
+  remote: git://github.com/randym/localeapp-i18n-js.git
+  revision: 521a0e289a3bfc6fff51f2f37d34d45a726e43c5
+  specs:
+    localeapp-i18n-js (0.0.1a)
+      i18n-js
+      localeapp
+      rails (~> 3.2.1)
+
+GIT
   remote: git://github.com/rkh/gh.git
   revision: d114122ae0f68cdebf5b9be3f87402b45b6a369f
   specs:

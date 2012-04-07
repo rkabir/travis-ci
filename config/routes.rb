@@ -13,6 +13,8 @@ TravisCi::Application.routes.draw do
     resources :branches, :only => :index
   end
 
+  resources :organizations, :only => :index
+
   resources :builds,   :only => :show
   resources :requests, :only => :create
   resources :jobs,     :only => [:index, :show]
